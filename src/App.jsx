@@ -513,7 +513,7 @@ export const App = () => {
           Let's Connect!
         </h2>
         <div className="flex flex-col min-[990px]:flex-row">
-          <div className="w-full max-w-[700px] h-auto">
+          <div className="w-full self-center max-w-[700px] h-auto">
             <svg
               viewBox="0 0 900 600"
               fill="none"
