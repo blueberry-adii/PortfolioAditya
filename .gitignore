@@ -12,9 +12,6 @@ node_modules
 dist
 dist-ssr
 *.local
-matter.js
-src/assets
-src/components
 src/App.jsx
 
 # Editor directories and files
