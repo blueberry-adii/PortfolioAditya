@@ -22,6 +22,12 @@ export const App = () => {
           <button className="pointer-events-auto shadow-md/50 shadow-black sm:text-xl mb-16 bg-[#4595eb] py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#18b1d7] to-[#1f2a86e6] relative transition-transform duration-100 hover:scale-105 cursor-pointer group">
             <a
               href="#latestworks"
+              onClick={(e) => {
+                e.preventDefault();
+                document
+                  .getElementById("latestworks")
+                  .scrollIntoView({ behaviour: "smooth" });
+              }}
               className="transition-all ease-in-out duration-100"
             >
               Latest Works
@@ -928,6 +934,12 @@ export const App = () => {
           <div className="flex justify-center">
             <a
               href="#top"
+              onClick={(e) => {
+                e.preventDefault();
+                document
+                  .getElementById("latestworks")
+                  .scrollIntoView({ behaviour: "smooth" });
+              }}
               className="flex w-max mb-6 cursor-pointer relative group justify-center items-center"
             >
               <svg
