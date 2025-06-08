@@ -1,0 +1,28 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  align-self: center;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  background: #aaa;
+}
+
+.swiper-pagination-bullet-active {
+  background: #007aff;
+}
+
+@media (width<48rem) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
