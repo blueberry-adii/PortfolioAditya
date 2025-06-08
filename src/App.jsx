@@ -937,7 +937,7 @@ export const App = () => {
               onClick={(e) => {
                 e.preventDefault();
                 document
-                  .getElementById("latestworks")
+                  .getElementById("top")
                   .scrollIntoView({ behaviour: "smooth" });
               }}
               className="flex w-max mb-6 cursor-pointer relative group justify-center items-center"
