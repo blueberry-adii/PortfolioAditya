@@ -509,8 +509,6 @@ export const App = () => {
         <div className="flex flex-col min-[990px]:flex-row">
           <div className="w-full max-w-[700px] h-auto">
             <svg
-              width="900"
-              height="600"
               viewBox="0 0 900 600"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
