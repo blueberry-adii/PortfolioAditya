@@ -828,7 +828,11 @@ export const App = () => {
             </svg>
           </div>
 
-          <form className="w-full max-w-[700px] mx-auto">
+          <form
+            className="w-full max-w-[700px] mx-auto"
+            name="contactUS"
+            netlify
+          >
             <div className="mb-5">
               <label
                 for="name"
